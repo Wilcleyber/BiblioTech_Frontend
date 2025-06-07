@@ -34,6 +34,7 @@ Bibliotech is a simple yet functional **Book Management System**, created with *
 
 ### Test Online
 https://wilcleyber.github.io/BiblioTech_Frontend/
+⚠️ Note: The API may take around 30 seconds to start when accessed.
 
 ---
 
