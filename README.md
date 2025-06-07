@@ -70,7 +70,7 @@ Bibliotech is a simple yet functional **Book Management System**, created with *
 ![Sorting and Filtering](./assets/Bibliotech1.gif)
 
 ### ✏️ Adding, Editing, and Deleting
-![CRUD Actions](./assets/Bibliotech2.gif)
+![CRUD Actions](./assets/Bibliotech1.gif)
 
 ---
 
@@ -93,17 +93,6 @@ Bibliotech is a simple yet functional **Book Management System**, created with *
 1. Clone the repository:  
    `git clone https://github.com/Wilcleyber/bibliotech.git`
 2. (Optional) Change the `API_URL` in `script.js` to your local backend if needed.
-
----
-
-## 📡 Example API Usage
-
-```js
-// In script.js
-const API_URL = 'https://bibliotech-api-tnjq.onrender.com';
-// Example: fetch all books
-fetch(`${API_URL}/livros`).then(res => res.json()).then(console.log);
-```
 
 ---
 
