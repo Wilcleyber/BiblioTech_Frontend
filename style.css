@@ -1,0 +1,64 @@
+body {
+    background-color:#1e1e1e;
+    color:#f0f0f0;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color:#2e2e2e;
+    color:white;
+    border:none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px 12px;
+    margin: 5px;
+    background-color:#444;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:#666;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #444;
+    text-align: left;
+}
+
+#adicionarLivroContainer {
+    text-align: center;
+    margin-top: 20px;       
+}
+
+#adicionarLivroBtn {
+    border: 2px dashed white;
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#adicionarLivroBtn:hover {
+    background-color: #333;
+}

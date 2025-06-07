@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Book Search</h1>
+        <input type="text" id="filtro" placeholder="Filter by title, author, genre, year...">
+        <div class="ordenacoes">
+            <button onclick="ordenarTitulo(true)">Title A-Z</button>
+            <button onclick="ordenarTitulo(false)">Title Z-A</button>
+            <button onclick="ordenarAno(true)">Year Ascending</button>
+            <button onclick="ordenarAno(false)">Year Descending</button>
+        </div>
+        <table id="tabela">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Publisher</th>
+                    <th>Genre</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <div id="adicionarLivroContainer">
+            <button id="adicionarLivroBtn">[ + Add Book ]</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
